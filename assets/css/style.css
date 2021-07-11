@@ -1398,6 +1398,10 @@ footer a:hover {
   #speakers .sp-reg {
     display: none;
   }
+  
+    .our-team-main img {
+    width: 135px;
+  }
 
   /* --- Award Categories --- */
   #award-cat {
