@@ -1,0 +1,1528 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: #d3d3d3;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: disc;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  color: #d3d3d3;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 3;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+strong {
+  font-weight: 500;
+}
+
+button {
+  padding: 5px 15px;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+/* -- Button -- */
+.mu-primary-btn {
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 01px;
+  padding: 12px 25px;
+}
+
+.mu-primary-btn:hover,
+.mu-primary-btn:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+/*-- Header --*/
+#mu-header {
+  display: inline;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 25px 0;
+  z-index: 999;
+  transition: all 0.5s;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #d3d3d3;
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+#mu-header.mu-fixed-nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  padding: 15px 0;
+}
+
+/*--------------------*/
+/* MENU */
+/*--------------------*/
+.navbar-default {
+  min-height: auto;
+}
+
+.mu-navbar {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .mu-menu li a {
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 0 5px;
+  margin: 10px 15px 5px;
+  transition: all 0.5s;
+}
+
+.navbar-default .mu-menu li a:hover,
+.navbar-default .mu-menu li a:focus {
+  border-bottom: 2px solid #ffffff;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+#banner {
+  height: 710px;
+  background: #4118a8;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7c5bcf, #4118a8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7c5bcf, #4118a8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.asset-1 {
+  position: relative;
+  margin-top: 120px;
+}
+
+.group-5 {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  max-height: 715px;
+  float: right;
+}
+
+.header-content {
+  position: relative;
+  top: 50px;
+}
+
+.dhnt b {
+  font-size: 22px;
+}
+
+.mxp, .dhnt, .adb, .amz {
+  margin-right: 15px;
+}
+
+#banner .reg-btn {
+  margin-top: 25px;
+}
+
+#banner .mu-primary-btn {
+  background-color: black;
+  border-radius: 100px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 2px 5px 20px 4px rgba(150, 0, 10, 0.3);
+}
+
+/* ---- Overview Section ---- */
+#overview {
+  background: black;
+  padding: 35px 0 35px;
+}
+
+.overview-content {
+  float: left;
+  width: 60%;
+}
+
+.overview-img {
+  position: relative;
+  top: 170px;
+  float: right;
+  width: 30%;
+}
+
+.overview-content h1 {
+  font-weight: 550;
+}
+
+.overview-content h6 {
+  margin: -20px 0 -10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.overview-content p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* --- Agenda Section --- */
+#agenda {
+  background: #171717;
+  opacity: 97%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#agenda h1 {
+  margin: 35px 0 35px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #7c5bcf 0%, #4118a8 100%)
+}
+
+.btn-grad {
+  margin: 10px 15px 10px;
+  padding: 10px 50px 10px;
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 0 1px #7c5bcf;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#agenda .day2 {
+  margin: 10px 15px 10px;
+  padding: 10px 50px 10px;
+  border-radius: 50px;
+  display: inline-block;
+  background: none;
+  border: 2px solid #4118a8;
+}
+
+#agenda .group-3 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-left: -220px;
+  margin-top: 35px;
+}
+
+#agenda .group-3_2 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: -220px;
+  margin-top: 600px;
+}
+
+.fill-84 {
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+
+.fill-84_2 {
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+
+.fill-86 {
+  position: relative;
+  top: 100px;
+  left: 650px;
+}
+
+.fill-88 {
+  position: relative;
+  top: 150px;
+  left: 700px;
+}
+
+.path-2 {
+  position: relative;
+  top: 80px;
+  right: 400px;
+}
+
+.path-2_2 {
+  position: relative;
+  top: 120px;
+  left: 250px;
+}
+
+.group-6 {
+  position: relative;
+  top: 170px;
+  right: 430px;
+}
+
+.group-6_2 {
+  position: relative;
+  top: 320px;
+  left: 350px;
+}
+
+.pre-lunch {
+  padding-top: 25px;
+  display: inline-block;
+  float: left;
+}
+
+.pre-lunch-time, .pre-lunch-events {
+  display: inline-block;
+  line-height: 3.95;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.pre-lunch-time img {
+  margin: 0 20px 0;
+}
+
+.path img {
+  margin-top: -355px;
+  margin-left: -31.5px;
+  z-index: -10;
+}
+
+.post-lunch {
+  float: right;
+  padding-top: 35px;
+}
+
+.post-lunch-time, .post-lunch-events {
+  display: inline-block;
+  line-height: 3.95;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.post-lunch-time img {
+  margin: 0 20px 0;
+}
+
+/*--- Why Attend ---*/
+.slideshow-container {
+  display: none;
+}
+
+#why-attend {
+  background: black;
+  padding: 25px 0 40px;
+}
+
+#why-attend h1 {
+  text-align: center;
+  margin: 10px 0 30px;
+}
+
+#why-attend h5 {
+  margin-top: 20px;
+  padding: 10px 0 10px;
+  font-weight: 550;
+  font-size: 21px;
+}
+
+.img1, .img2, .img3 {
+  display: inline-block;
+  height: 350px;
+  width: 340px;
+}
+
+.img1 {
+  position: relative;
+  bottom: 23px;
+}
+
+.img2 {
+  margin-left: 4.7%;
+}
+
+.img3 {
+  float: right;
+}
+
+/*--- Who Should Attend ---*/
+#wsa {
+  background: #171717;
+  opacity: 97%;
+  padding: 25px 0 50px;
+}
+
+#wsa h3 {
+  text-align: center;
+  padding: 15px 0 55px;
+}
+
+#wsa h5 {
+  position: relative;
+  right: 43px;
+}
+
+#wsa p {
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.wsa-img {
+  float: left;
+  max-width: 475px;
+}
+
+.console-img {
+  position: relative;
+  right: 20px;
+}
+
+.wsa-mo-content {
+  display: none;
+}
+
+.wsa-content {
+  float: right;
+  max-width: 50%;
+}
+
+.wsa-fill-84 {
+  position: relative;
+  right: 250px;
+  top: -70px;
+}
+
+.wsa-fill-84_2 {
+  position: relative;
+  right: 300px;
+  top: 350px
+}
+
+.wsa-fill-86 {
+  position: relative;
+  right: 650px;
+  top: -50px;
+}
+
+.wsa-fill-86_2 {
+  position: relative;
+  right: 665px;
+  top: 370px
+}
+
+.wsa-group-6 {
+  position: relative;
+  right: 610px;
+  top: 30px
+}
+
+.wsa-group-6_2 {
+  position: relative;
+  right: 625px;
+  top: 450px
+}
+
+/*--- Speakers ---*/
+#speakers {
+  background: black;
+}
+
+#speakers h3 {
+  text-align: center;
+  color: #dddddd;
+  padding: 30px 0 30px;
+}
+
+.our-team-main {
+  width: 103%;
+  background: #171717;
+  opacity: 97%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 22px;
+}
+
+.our-team-main img {
+  margin-top: 25px;
+  border-radius: 50%;
+  width: 160px;
+}
+
+.our-team-main h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.our-team-main p {
+  font-size: 13px;
+  position: relative;
+  color: #7c5bcf;
+  top: -10px;
+}
+
+.sp-reg {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#speakers .reg-btn {
+  padding: 11px 21px 11px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  box-shadow: 2px 5px 20px 4px rgba(150, 0, 10, 0.3);
+}
+
+/* --- Award Categories --- */
+#award-cat {
+  background: #171717;
+  opacity: 97%;
+  padding: 25px 0 50px;
+  text-align: center;
+}
+
+#award-cat img {
+  width: 5%;
+}
+
+#award-cat h3 {
+  padding: 20px 0 30px;
+}
+
+#award-cat .day1, .day2 {
+  padding: 12px 16px 12px;
+  margin: 10px;
+}
+
+.full-hr {
+  width: 73%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.2);
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.aw-card {
+  background: black;
+  padding: 15px 0 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1.5px 3px 2px rgba(191, 191, 191, 0.1);
+}
+
+.aw-card p {
+  position: relative;
+  left: -15%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffc200;
+}
+
+.aw-card h5 {
+  position: relative;
+  float: left;
+}
+
+.dot-1 {
+  position: relative;
+  float: left;
+  left: 5px;
+  height: 16px;
+  width: 16px;
+  top: 5px;
+  background-color: #7c5bcf;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.dot-2 {
+  position: relative;
+  float: left;
+  height: 16px;
+  width: 16px;
+  top: 5px;
+  background-color: #4118a8;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*-- Our Partners --*/
+#our-partners {
+  background-color: black;
+}
+
+#our-partners h3 {
+  text-align: center;
+  color: #dddddd;
+  padding: 30px 0 30px;
+}
+
+.partners-img {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 80px;
+}
+
+.partners-img img {
+  margin: auto;
+}
+
+/*-- Footer --*/
+/*-- Contact Us & Register Now --*/
+#contact {
+  display: flex;
+  justify-content: center;
+  background: #171717;
+  opacity: 97%;
+  padding: 25px 0 1px;
+}
+
+.cont-us h3 {
+  text-align: center;
+  margin: 10px 0 40px;
+}
+
+.cont-us p {
+  line-height: 1.7;
+}
+
+.cont-info-card hr {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  width: 50%;
+  border: 0;
+  height: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(191, 191, 191, 0.2);
+}
+
+.cont-info-card {
+  position: relative;
+  left: 10%;
+}
+
+.cont-info {
+  margin: 30px 0 20px;
+}
+
+#contact .full-hr {
+  width: 100%;
+}
+
+/*-- Register now --*/
+#reg-now {
+  background: #171717;
+  opacity: 97%;
+  padding-bottom: 20px;
+}
+
+#reg-now h3 {
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.reg-form .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.firstname, .lastname, .email, .cnumber {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.firstname, .email {
+  position: relative;
+  left: 50px;
+}
+
+input[type=text] {
+  background-color: rgba(118, 105, 138, 0.8);
+  width: 85%;
+  border: 0;
+  padding: 12px;
+  border-radius: 50px;
+  resize: vertical;
+}
+
+::placeholder {
+  color: white;
+  margin-left: 5px;
+}
+
+.captcha {
+  margin-top: 20px;
+  position: relative;
+  left: 38%;
+}
+
+.submit {
+  margin-top: 20px;
+  position: relative;
+  left: 45%;
+}
+
+.submit .btn-grad {
+  border: 0;
+  padding: 15px 40px;
+}
+
+/*-- Footer --*/
+footer {
+  text-align: center;
+  background: #171717;
+  opacity: 97%;
+  padding-top: 20px;
+}
+
+footer a {
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+.social-icon {
+  margin-top: 20px;
+}
+
+.social-icon img {
+  padding: 5px;
+}
+
+.fb:hover {
+  width: 4.1%;
+}
+
+.linked:hover {
+  width: 4.1%;
+}
+
+.twit:hover {
+  width: 4.1%;
+}
+
+.insta:hover {
+  width: 4.1%;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+/* for Medium display devices */
+@media (max-width:1199px) {
+
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    margin-top: -7px;
+  }
+
+  .navbar-default .mu-menu li a {
+    margin: 10px 12px 5px;
+  }
+
+  /*-- banner --*/
+  #banner h2 {
+    font-size: 40px;
+  }
+
+  #banner h1 {
+    font-size: 35px;
+  }
+
+  .group-5 {
+    right: -30px;
+  }
+
+  .asset-1 {
+    position: relative;
+    margin-top: 150px;
+    width: 30%;
+  }
+
+  .mxp, .dhnt, .adb, .amz {
+    margin-right: 5px;
+  }
+
+  /* ---- Overview Section ---- */
+  .overview-content {
+    float: left;
+    width: 53%;
+  }
+
+  .overview-content p {
+    font-size: 14px;
+  }
+
+  /* --- Agenda Section --- */
+  #agenda .group-3 {
+    margin-left: -150px;
+  }
+
+  #agenda .group-3_2 {
+    margin-left: -170px;
+  }
+
+  .pre-lunch {
+    display: block;
+  }
+
+  .post-lunch {
+    display: block;
+    float: left;
+  }
+
+  /*--- Why Attend ---*/
+  .img1, .img2, .img3 {
+    display: inline-block;
+    height: 300px;
+    width: 290px;
+  }
+
+  /*--- Who Should Attend ---*/
+  .wsa-img {
+    max-width: 375px;
+  }
+
+  /*--- Speakers ---*/
+  #speakers {
+    padding-bottom: 110px;
+  }
+
+  #speakers .reg-btn {
+    position: relative;
+    top: 320px;
+    right: 32%;
+  }
+
+  /* --- Award Categories --- */
+  .aw-card {
+    padding: 20px 0 30px;
+  }
+
+  .aw-card p {
+    position: relative;
+    top: 30px;
+    left: -51%;
+  }
+
+  .aw-card h5 {
+    position: relative;
+    float: left;
+  }
+
+  /*-- Contact Us & Register Now --*/
+  .cont-info-card hr {
+    width: 30%;
+  }
+
+  #contact .full-hr {
+    width: 100%;
+  }
+}
+
+/*-- for medium small devices --*/
+@media (max-width: 991px) {
+  #mu-header {
+    background-color: black;
+    padding: 15px 0 15px;
+  }
+
+  .mu-primary-btn {
+    font-size: 14px;
+    padding: 12px 22px;
+  }
+
+  .navbar-default .mu-menu li a {
+    font-size: 14px;
+    margin: 10px 5px;
+  }
+
+  /*-- banner --*/
+  #banner h2, h1, h6 {
+    text-align: center;
+  }
+
+  .group-5 {
+    display: none;
+  }
+
+  .asset-1 {
+    position: relative;
+    left: 20%;
+    width: 60%;
+  }
+
+  .mxp, .dhnt, .adb, .amz {
+    margin-right: 5px;
+  }
+
+  #banner .mu-primary-btn {
+    position: relative;
+    left: 37%;
+    margin-bottom: 30px;
+  }
+
+  /* ---- Overview Section ---- */
+  .overview-content {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    left: 5%;
+  }
+
+  .overview-img {
+    display: none;
+  }
+
+  .overview-content p {
+    font-size: 14px;
+  }
+
+  /* --- Agenda Section --- */
+  .pre-lunch, .post-lunch p {
+    font-size: 14px;
+  }
+
+  /*--- Why Attend ---*/
+  #why-attend .cont-1 {
+    display: none;
+  }
+
+  .slideshow-container {
+    display: block;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .slideshow-container img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 300px;
+    padding: 20px 0 20px;
+  }
+
+  .mySlides .text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+    max-width: 300px;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #7c5bcf;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+  }
+
+  .active {
+    background-color: #4118a8;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  /*--- Who Should Attend ---*/
+  #wsa h3 {
+    padding: 20px 0 0;
+  }
+
+  .wsa-img {
+    display: none;
+  }
+
+  .wsa-content {
+    display: none;
+  }
+
+  .wsa-mo-content {
+    display: block;
+    text-align: center;
+  }
+
+  .wsa-mo-content h5 {
+    position: relative;
+    left: 1%;
+    padding-bottom: 10px;
+  }
+
+  .console-mo-img {
+    position: relative;
+    margin: 20px;
+  }
+
+  /*--- Speakers ---*/
+  #speakers {
+    padding-bottom: 50px;
+  }
+
+  #speakers .reg-btn {
+    position: relative;
+    top: 45px;
+    left: 1%;
+  }
+
+  /* --- Award Categories --- */
+  .aw-card h5 {
+    font-size: 16px;
+  }
+
+  .aw-card p {
+    font-size: 12px;
+  }
+
+  /* -- Our Partners -- */
+  #our-partners .cont1 {
+    display: none;
+  }
+
+  /*-- Contact Us & Register Now --*/
+  .captcha {
+    position: relative;
+    left: -1%;
+    left: 33%;
+  }
+
+  .foo-menu a {
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  .fb:hover {
+    width: 6.5%;
+  }
+
+  .linked:hover {
+    width: 6.5%;
+  }
+
+  .twit:hover {
+    width: 6.5%;
+  }
+
+  .insta:hover {
+    width: 6.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-toggle {
+    border: 0;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #d3d3d3;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .navbar-default .mu-menu li a {
+    display: inline-block;
+  }
+
+  #banner .header-content b {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  #banner .header-content .mxp, .adb, .amz img {
+    display: inline-block;
+    width: 15%;
+    margin: 0 3% 0 5%;
+  }
+
+  .aw-card {
+    padding-bottom: 10px;
+  }
+
+  .aw-card p {
+    position: relative;
+    left: -12%;
+    top: -4px;
+    font-size: 12px;
+  }
+
+  .aw-card h5 {
+    position: relative;
+    float: left;
+  }
+
+  .btn-submit {
+    position: relative;
+    left: -8%;
+  }
+}
+
+@media (max-width: 640px) {
+  #mu-header.mu-fixed-nav {
+    padding: 10px 0;
+  }
+
+  .mu-primary-btn {
+    font-size: 12px;
+    padding: 10px 12px;
+    margin-top: 15px;
+  }
+
+  .captcha {
+    position: relative;
+    left: -1%;
+    left: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  #mu-header {
+    padding: 0;
+  }
+
+  .navbar-brand h1 {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+
+  .navbar-toggle .icon-bar {
+    width: 28px;
+    padding: 1px;
+    margin-bottom: 7px;
+  }
+
+  /*-- Header --*/
+  #banner {
+    height: 520px;
+  }
+
+  .asset-1 {
+    margin-top: 100px;
+  }
+
+  #banner h2 {
+    font-size: 28px;
+  }
+
+  #banner h1 {
+    font-size: 26px;
+  }
+
+  .header-content {
+    position: relative;
+    top: 35px;
+  }
+
+  #banner .header-content .adb, .amz img {
+    display: inline-block;
+    width: 15%;
+    margin: 0 2% 0 2%;
+  }
+
+  #banner .header-content .dhnt img {
+    display: inline-block;
+    width: 5%;
+  }
+
+  #banner .header-content .mxp img {
+    display: inline-block;
+    margin-left: 2px;
+  }
+
+  #banner .reg-btn {
+    margin-top: 15px;
+  }
+
+  #banner .mu-primary-btn {
+    position: relative;
+    left: -1%;
+    left: 21%;
+    padding: 13px 30px 13px;
+  }
+
+  /* ---- Overview Section ---- */
+  .overview-content h1 {
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+  }
+
+  .overview-content h6 {
+    font-size: 24px;
+  }
+
+  .overview-content p {
+    font-size: 12px;
+  }
+
+  /* --- Agenda Section --- */
+  #agenda h1 {
+    margin: 10px 0 35px;
+    font-size: 26px;
+  }
+
+  #agenda .group-3 {
+    display: none;
+  }
+
+  #agenda .group-3_2 {
+    display: none;
+  }
+
+  #agenda .container {
+    padding: 0;
+  }
+
+  .fill-84, .fill-84_2, .fill-86, .fill-88, .path-2, .path-2_2, .group-6, .group-6_2 {
+    display: none;
+  }
+
+  .pre-lunch h3 {
+    font-size: 20px;
+  }
+
+  .pre-lunch p {
+    font-size: 10.5px;
+    line-height: 5.7;
+  }
+
+  .pre-lunch .path img {
+    position: relative;
+    top: -10%;
+    left: 1%;
+  }
+
+  .pre-lunch-time, .pre-lunch-events {
+    margin-left: 10px;
+  }
+
+  .pre-lunch-time img {
+    margin: 0 12px 0 0;
+  }
+
+  .post-lunch h3 {
+    font-size: 20px;
+  }
+
+  .post-lunch p {
+    font-size: 10.5px;
+    line-height: 5.7;
+  }
+
+  .post-lunch-time {
+    margin-left: 10px;
+  }
+
+  .post-lunch-events {
+    margin-left: 0;
+  }
+
+  .post-lunch-time img {
+    margin: 0 12px 0 0;
+  }
+
+  .post-lunch .path img {
+    position: relative;
+    left: -1%;
+  }
+
+  /* --- Why Attend --- */
+  #why-attend h1 {
+    font-size: 26px;
+  }
+
+  /*--- Speakers ---*/
+  #speakers .sp-reg {
+    display: none;
+  }
+
+  /* --- Award Categories --- */
+  #award-cat {
+    padding: 25px 0 50px;
+    text-align: center;
+  }
+
+  #award-cat img {
+    display: none;
+  }
+
+  #award-cat h3 {
+    padding: 20px 0 30px;
+  }
+
+  #award-cat .btn-grad {
+    font-size: 12px;
+    margin: 3px;
+    padding: 14px 12px 14px
+  }
+
+  #award-cat .day2 {
+    background: none;
+    border: 2px solid #4118a8;
+  }
+
+  .mo-hide {
+    display: none;
+  }
+
+  .aw-card {
+    background: black;
+    padding: 15px 0 4px;
+    margin-bottom: 20px;
+  }
+
+  .aw-card p {
+    position: relative;
+    font-size: 12px;
+    left: 0.1%;
+  }
+
+  .aw-card h5 {
+    font-size: 14px;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  .cont-us {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cont-info-card {
+    position: relative;
+    left: 3%;
+  }
+
+  .cont-info {
+    margin: 30px 0 20px;
+  }
+
+  .cont-info-card hr {
+    width: 70%;
+  }
+
+  #contact .full-hr {
+    display: none;
+  }
+
+  .cont-us h4 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .cont-us p {
+    font-size: 16px;
+  }
+
+  /*-- Register now --*/
+  #reg-now {
+    padding: 25px 0 20px;
+  }
+
+  #reg-now .container {
+    position: relative;
+    left: -5%;
+  }
+
+  #reg-now h3 {
+    font-size: 26px;
+  }
+
+  ::placeholder {
+    color: #dcdcdc;
+    font-weight: 300;
+    margin-left: 5px;
+  }
+
+  .captcha {
+    margin-top: 20px;
+    position: relative;
+    left: 14%;
+  }
+
+  /*-- Footer --*/
+  .fb:hover {
+    width: 12%;
+  }
+
+  .linked:hover {
+    width: 12%;
+  }
+
+  .twit:hover {
+    width: 12%;
+  }
+
+  .insta:hover {
+    width: 12%;
+  }
+
+  .copyright {
+    margin-top: 20px;
+  }
+}
